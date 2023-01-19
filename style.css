@@ -92,10 +92,10 @@ main .card span {
     color: var(--Slightly-transparent-white-stat);
 }
 
-.image{
+.image {
     background-color: var(--Soft-violet);
 }
-img{
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -106,8 +106,6 @@ img{
 .image img {
     height: 100%;
 }
-
-
 .overlay {
     position: absolute;
     top: 0;
@@ -119,19 +117,19 @@ img{
 @media screen and (max-width: 375px) {
 }
 */
-.footer {
-    position: relative;
+footer {
+    position: absolute;
     font-size: 11px;
     text-align: center;
     color: var(--White);
-    bottom: -1rem;
+    bottom: 1rem;
 }
-.footer a {
+footer a {
     color: var(--Soft-violet);
     transition: 0.4s;
 }
 
-.footer a:hover {
+footer a:hover {
     color: var(--White);
     font-size: 0.8rem;
 }
